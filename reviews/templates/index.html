@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>University</h1>
+    <ul>
+        {% for university in university_list %}
+            <li>
+                <strong>University:</strong> {{ university.name }}>
+                <a href="{% url 'university_detail' university.id %}" > Detail</a><br>
+            </li>
+        {% empty %}
+            <li>No reviews available.</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

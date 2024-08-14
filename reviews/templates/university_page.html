@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <H1>University: {{university_name}}</H1>
+
+    <h2>Reviews</h2>
+    <ul>
+        {% for review in reviews %}
+            <li>
+                <strong>Course:</strong> {{ review.course_id.name }}<br>
+                <strong>Rating:</strong> {{ review.star }}<br>
+                <strong>Description:</strong> {{ review.desc }}<br>
+                <strong>University:</strong> {{ review.university_id.name }}<br>
+                <strong>Created At:</strong> {{ review.created_at }}<br>
+            </li>
+        {% empty %}
+            <li>No reviews available.</li>
+        {% endfor %}
+    </ul>
+
+</body>
+</html>
