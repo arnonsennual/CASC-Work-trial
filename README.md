@@ -1,4 +1,4 @@
-<h1>This project is a 1 Work Trial at CASC</h1>
+<h1>This project is a 1-day Work Trial at CASC</h1>
 <h2>Mainly focusing on</h2>
 
 - Allow the Advisor(Admin) Generate Unique Link for University Review form
