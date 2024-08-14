@@ -42,3 +42,5 @@
 
 
 # Please note that this project does not currently include any CSS styling. The web application is functional but presents in a minimalistic, unstyled format.
+
+# I decided to use Django admin panel for time saving so in the future I can implement this system model in a new language , new framework or standalone admin system without using Django admin panel
