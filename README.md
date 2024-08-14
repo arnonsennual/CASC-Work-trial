@@ -41,3 +41,4 @@
 ![image](https://github.com/user-attachments/assets/04dbc246-5a41-4e63-9fde-311929c6b5ab)
 
 
+# Please note that this project does not currently include any CSS styling. The web application is functional but presents in a minimalistic, unstyled format.
